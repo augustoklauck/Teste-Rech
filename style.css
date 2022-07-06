@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	width: auto;
+}
+
+body {
+    width: 50%;
+    background-color: blue;
+    margin: 2rem auto;
+}
+
+input, button {
+    width: 98%;
+    padding: 0.6rem 0.4rem;
+    margin: 0.4rem;
+}
+
+button {
+    text-decoration: none;
+    border: none;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.success {
+    background-color: rgb(54, 80, 231);
+    color: rgb(255, 255, 255);
+}
+
+.delete {
+    background-color: rgb(231, 54, 54);
+    color: rgb(255, 255, 255);
+}
+
+table {
+    background-color: #eee;
+    margin-top: .9rem;
+    border-collapse: collapse;
+}
+
+td , th {
+    padding: 5px 25px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#home {
+  width: 5vw;
+}
+
+#home {
+	position: absolute;
+	width: 27%;
+	height: 37vw;
+	top: 0vw;
+	left: 40vw;
+}
+
+#home h1 {
+	position: absolute;
+	text-decoration: none;
+	font-weight: bold;
+	font-family:ARLRDBD;
+	color: Black;
+	font-size: 2.5vw;
+}
+
+.menu {
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  top: 5vw;
+  background-color: #eee;
+  border-bottom: 1px solid #ddd;
+}
+
+#dono_carro {
+  position: absolute;
+  display: grid;
+  justify-items: center;
+  width: 10vw;
+	height: 2vw;
+  top: 16vw;
+  left: 24.5vw;
+  background-color: #eee;
+  float: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#Consult {
+  position: absolute;
+  display: grid;
+  justify-items: center;
+  width: 10vw;
+	height: 2vw;
+  top: 19vw;
+  left: 24.5vw;
+  background-color: #eee;
+  float: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#consultar_apartamento {
+  position: absolute;
+  display: grid;
+  justify-items: center;
+  width: 10vw;
+	height: 2vw;
+  top: 22vw;
+  left: 24.5vw;
+  background-color: #eee;
+  float: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#Consult_apartamento {
+  position: absolute;
+  display: grid;
+  justify-items: center;
+  width: 10vw;
+	height: 2vw;
+  top: 25vw;
+  left: 24.5vw;
+  background-color: #eee;
+  float: left;
+  border-bottom: 1px solid #ddd;
+}
+
+
+#telefone_sem_fio {
+  position: absolute;
+  display: grid;
+  justify-items: center;
+  width: 10vw;
+	height: 2vw;
+  top: 28vw;
+  left: 24.5vw;
+  background-color: #eee;
+  float: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#Consult_telefone {
+  position: absolute;
+  display: grid;
+  justify-items: center;
+  width: 10vw;
+	height: 2vw;
+  top: 31vw;
+  left: 24.5vw;
+  background-color: #eee;
+  float: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#consultar_veiculo {
+  position: absolute;
+  display: grid;
+  justify-items: center;
+  width: 10vw;
+	height: 2vw;
+  top: 34vw;
+  left: 24.5vw;
+  background-color: #eee;
+  float: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#veiculo_pesquisa {
+  position: absolute;
+  display: grid;
+  justify-items: center;
+  width: 10vw;
+	height: 2vw;
+  top: 37vw;
+  left: 24.5vw;
+  background-color: #eee;
+  float: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#lista_menu {
+  display: grid;
+  justify-items: center;
+  width: 10vw;
+	height: 2vw;
+  background-color: #eee;
+  float: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#lista_menu h1 {
+	text-decoration: none;
+	font-weight: bold;
+	font-family:ARLRDBD;
+	color: Black;
+  margin: 0 auto;
+	font-size: 1.0vw;
+}
+
+#cadastro_pessoa {
+  position: absolute;
+  width: 33vw;
+  height: 3vw;
+  top: 5%;
+}
+
+#cadastro_carro {
+  position: absolute;
+  width: 33vw;
+  top: 24vw;
+}
+
+#send {
+  position: absolute;
+  top: 38vw;
+}
+
+#cadastro_pessoa h1 {
+  position: absolute;
+  text-decoration: none;
+  font-weight: bold;
+  font-family:ARLRDBD;
+  color: Black;
+  font-size: 2.0vw;
+  top: -2vw;
+  left: 6vw;
+}
+
+#cadastro_carro h2 {
+  position: absolute;
+  text-decoration: none;
+  font-weight: bold;
+  font-family:ARLRDBD;
+  color: Black;
+  font-size: 2.0vw;
+  top: -3vw;
+  left: 7vw;
+}
+
+#imagem_logo {
+  position: absolute;
+  width: 100%;
+}
+
+#logo_menu {
+  position: absolute;
+  width: 66%;
+  height: auto;
+  left: 43vw;
+  top: 5vw;
+  float: right;
+  max-width: 500px;
+}
