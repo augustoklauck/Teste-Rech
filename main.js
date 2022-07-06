@@ -194,8 +194,6 @@ function Insert_cadastro_bank(carro ,pessoa) {
       localStorage.pessoa = JSON.stringify(pessoa);
       localStorage.carro = JSON.stringify(carro);
 
-      localStorage.getItem(pessoa).
-
       console.log(pessoa);
       console.log("teste");
       console.log(carro);
@@ -359,7 +357,7 @@ function consultar_dono () {
 
 
     }else if(i == pessoa.nome.length-1){
-            alert("não achei ninguem com esse nome tente novamente.");
+
     }
   }
 }
@@ -417,7 +415,7 @@ function consultar_apartamento () {
               `;
               insert_html.appendChild(carro_estrutura);
     }else if(i == pessoa.apartamento.length-1){
-            alert("não achei ninguem com esse nome tente novamente.");
+
     }
   }
 }
@@ -473,7 +471,7 @@ function consultar_telefone () {
               `;
               insert_html.appendChild(carro_estrutura);
     }else if(i == pessoa.telefone.length-1){
-            alert("não achei ninguem com esse nome tente novamente.");
+
     }
   }
 }
@@ -533,7 +531,7 @@ function consultar_veiculo () {
 
               insert_html.appendChild(carro_estrutura);
     }else if(i == carro.marca.length-1){
-            alert("não achei ninguem com esse nome tente novamente.");
+
     }
   }
 }
